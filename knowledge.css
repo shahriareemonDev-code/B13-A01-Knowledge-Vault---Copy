@@ -347,11 +347,11 @@ text-align: center;
  footer {
     height: 350px;
     background-color:  rgba(0, 25, 49, 1);
-    
- }
+  }
 
 .footer-sec {
     padding: 120px 120px 30px 120px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
