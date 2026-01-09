@@ -374,10 +374,12 @@ text-align: center;
 
  .footer-social{
     color: white;
+    text-align: right;
  } 
 
  .social-icon{
     padding: 5px;
+    text-align: right;
  }
 
  .last-footer p{
