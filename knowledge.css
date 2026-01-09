@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.font-inter {
+    font-family: 'Inter';
+    font-optical-sizing: auto;
+}
+
+/* Nav section */
+#nav,
+#parent,
+#box-parent,
+#brain-parent,
+#last-section {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+}
+
+nav .nav-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+
+}
+
+.nav-ul a {
+    text-decoration: none;
+    font-family: 'Inter';
+    color: black;
+}
+
+.nav-btn {
+    max-width: 2042px;
+    background-color: rgba(70, 145, 101, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 19px;
+    border: none;
+}
+
+/* Main section */
+
+/* Hero section */
+#hero-parent {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0 150px;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-banner {
+    max-width: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-flex {
+    display: inline-block;
+}
+
+.span {
+    background-color: rgba(255, 255, 255, 1);
+    color: #30B868;
+    font-family: 500;
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.hero-banner h1 {
+    font-style: Bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hero-banner .green {
+    color: #30B868;
+    text-align: center;
+}
+
+.hero-banner p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: Inter;
+}
+
+.hero-early-access {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px 8px 12px;
+    color: rgba(70, 145, 101, 1);
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    outline: none;
+}
+
+.hero-button-group {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px 12px 16px;
+    color: #fff;
+    border-radius: 4px;
+    background: rgba(70, 145, 101, 1);
+    border: none;
+    outline: none;
+}
+
+.hero-btn-primary span,
+.hero-btn-outlined span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: 'Inter';
+}
+
+.hero-btn-outlined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+#box-parent {
+    max-width: 1600px;
+    padding: 0 120px;
+    background: #f7f7f7;
+}
+
+.box-content {
+    padding-top: 60px;
+    margin-bottom: 16px;
+    text-align: center;
+    gap: 44px;
+}
+
+.flex-box {
+    display: flex;
+    padding: 24px 0 0;
+    gap: 16px;
+}
+
+.box-container img {
+    max-width: 32px;
+    height: 32px;
+    background: rgba(249, 85, 85, 1);
+    border: 15px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.box-card {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: #fff;
+}
+
+.box-para{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    color: #627382;
+}
+
+.box-h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    gap: -16px;
+}
+
+/* Brain section */
+.brain-img {
+    border-radius: 12px;
+    margin-right: 60px;
+}
+
+.brain-container {
+    padding: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.second-brain {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.second-brain h4 {
+    color: rgba(70, 145, 101, 1);
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+.second-brain h1 {
+    color: #001931;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+
+.second-brain .description {
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.second-brain .check-desc {
+    color: var(--Style, rgba(0, 25, 49, 1));
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.second-brain .st-check {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.second-brain .check-img {
+    margin-right: 6px;
+}
+
+
+/* last section */
+.last-section2{
+background-color: (255, 255, 255, 1);
+padding: 0 120px 120px 120px;
+}
+.content-div {
+    background-color: rgba(247, 246, 242, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 80px 40px;
+}
+
+.content-div h1{
+    color: rgba(0, 25, 49, 1);
+}
+
+.content-div p {
+color:#627382;
+font-size: 16px;
+font-weight: 400;
+}
+
+.arrow-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.para-div{
+ font-size: 16px;
+ font-weight: 400;
+ color: #627382;
+}
+.btn-3{
+    max-width: 2042px;
+    background-color: rgba(70, 145, 101, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
