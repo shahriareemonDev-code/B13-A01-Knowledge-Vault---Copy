@@ -18,7 +18,7 @@ body {
 #parent,
 #box-parent,
 #brain-parent,
-#last-section , footer {
+#last-section  {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -236,7 +236,7 @@ nav .nav-ul {
 }
 
 .brain-container {
-    padding:120 0px;
+    padding: 120px ;
     display: flex;
     align-items: center;
 }
@@ -256,11 +256,11 @@ nav .nav-ul {
 
 .second-brain h1 {
     color: #001931;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
     line-height: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
     text-align: left;
 }
 
@@ -344,12 +344,14 @@ text-align: center;
     margin-bottom: 16px;
  }
 
- footer{
- background-color:  rgba(0, 25, 49, 1);
+ footer {
+    height: 350px;
+    background-color:  rgba(0, 25, 49, 1);
+    
  }
 
 .footer-sec {
-    padding:  120px 120px 30px 120px;
+    padding: 120px 120px 30px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -380,7 +382,5 @@ text-align: center;
 
  .last-footer p{
     color: white;
-    font-size: 16px;
-    font-weight: ;
- }
+}
 
